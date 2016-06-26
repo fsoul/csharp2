@@ -7,10 +7,10 @@ namespace ConsoleApplication6
         static void Main(string[] args)
         {
             Console.Write("Введи число: ");
-            int i = int.Parse(Console.ReadLine());
-            for (int a = 1; a <= i; a++)
+            int num = int.Parse(Console.ReadLine());
+            for (int i = 1; i <= num; i++)
             {
-                if (i % a == 0) Console.Write("{0} ", a);
+                if (num % i == 0) Console.Write("{0} ", i);
             }
         }
     }
